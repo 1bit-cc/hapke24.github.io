@@ -1,1 +1,1342 @@
-hello pages
+<html class="small-scroll-bar no-js bg" lang="zh-cmn-Hans"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="UTF-8">
+    <!--IE 8浏览器的页面渲染方式-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <!--默认使用极速内核：针对国内浏览器产商-->
+    <meta name="renderer" content="webkit">
+    <!--chrome Android 地址栏颜色-->
+    <meta name="theme-color" content="#f9f9f9">
+<!--    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">-->
+<!--    <meta name="mobile-web-app-capable" content="yes">-->
+<!--    <meta name="apple-mobile-web-app-capable" content="yes">-->
+<!--    <meta name="apple-mobile-web-app-status-bar-style" content="default">-->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+    <title>Kris - 相逢何必曾相识</title>
+            <link rel="icon" type="image/ico" href="/favicon.ico">
+        <meta name="description" content="Your description here.">
+<meta name="keywords" content="typecho,php,blog">
+<meta name="generator" content="Typecho 1.2.0">
+<meta name="template" content="handsome">
+<link rel="pingback" href="https://www.9kr.cc/index.php/action/xmlrpc">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.9kr.cc/index.php/action/xmlrpc?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.9kr.cc/index.php/action/xmlrpc?wlw">
+<link rel="alternate" type="application/rss+xml" title="Kris » RSS 2.0" href="https://www.9kr.cc/index.php/feed/">
+<link rel="alternate" type="application/rdf+xml" title="Kris » RSS 1.0" href="https://www.9kr.cc/index.php/feed/rss/">
+<link rel="alternate" type="application/atom+xml" title="Kris » ATOM 1.0" href="https://www.9kr.cc/index.php/feed/atom/">
+
+
+    
+    <script async="" src="https://k.clarity.ms/s/0.6.34/clarity.js"></script><script src="https://hm.baidu.com/hm.js?75d2ce89369e3025694a1ecf9b782797"></script><script async="" src="https://www.clarity.ms/tag/bad46x6tj9"></script><script type="text/javascript">
+
+        window['LocalConst'] = {
+            //base
+            BASE_SCRIPT_URL: 'https://www.9kr.cc/usr/themes/handsome/',
+            BLOG_URL: 'https://www.9kr.cc/',
+            BLOG_URL_N: 'https://www.9kr.cc',
+            STATIC_PATH: 'https://www.9kr.cc/usr/themes/handsome/assets/',
+            BLOG_URL_PHP: 'https://www.9kr.cc/index.php/',
+            VDITOR_CDN: 'https://cdn.jsdelivr.net/npm/vditor@3.8.10',
+            ECHART_CDN: 'https://lf6-cdn-tos.bytecdntp.com/cdn/expire-5-y/echarts/4.5.0',
+            HIGHLIGHT_CDN: 'https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/highlight.js/10.6.0',
+
+            MATHJAX_SVG_CDN: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.min.js',
+            THEME_VERSION: '8.4.02022031701',
+            THEME_VERSION_PRO: '8.4.0',
+            DEBUG_MODE: '0',
+
+            //comment
+            COMMENT_NAME_INFO: '必须填写昵称或姓名',
+            COMMENT_EMAIL_INFO: '必须填写电子邮箱地址',
+            COMMENT_URL_INFO: '必须填写网站或者博客地址',
+            COMMENT_EMAIL_LEGAL_INFO: '邮箱地址不合法',
+            COMMENT_URL_LEGAL_INFO: '网站或者博客地址不合法',
+            COMMENT_CONTENT_INFO: '必须填写评论内容',
+            COMMENT_SUBMIT_ERROR: '提交失败，请重试！',
+            COMMENT_CONTENT_LEGAL_INFO: '无法获取当前评论，可能原因如下：',
+            COMMENT_NOT_IN_FIRST_PAGE:'尝试请前往评论第一页查看',
+            COMMENT_NO_EMAIL:'如果没有填写邮箱则进入审核队列',
+            COMMENT_PAGE_CACHED:'页面如果被缓存无法显示最新评论',
+            COMMENT_BLOCKED:'评论可能被拦截且无反馈信息',
+            COMMENT_AJAX_ERROR:'评论请求失败',
+            COMMENT_TITLE: '评论通知',
+            STAR_SUCCESS:'点赞成功',
+            STAR_REPEAT:'您已点赞',
+            STAR_ERROR_NETWORK:'点赞请求失败',
+            STAR_ERROR_CODE:'点赞返回未知错误码',
+            COOKIE_PREFIX: '41d9f069588b693ff4904e5642bc150a',
+            COOKIE_PATH: '/',
+
+            //login
+            LOGIN_TITLE: '登录通知',
+            REGISTER_TITLE: '注册通知',
+            LOGIN_USERNAME_INFO: '必须填写用户名',
+            LOGIN_PASSWORD_INFO: '请填写密码',
+            REGISTER_MAIL_INFO: '请填写邮箱地址',
+            LOGIN_SUBMIT_ERROR: '登录失败，请重新登录',
+            REGISTER_SUBMIT_ERROR: '注册失败，请稍后重试',
+            LOGIN_SUBMIT_INFO: '用户名或者密码错误，请重试',
+            LOGIN_SUBMIT_SUCCESS: '登录成功',
+            REGISTER_SUBMIT_SUCCESS: '注册成功，您的密码是：',
+            CLICK_TO_REFRESH: '点击以刷新页面',
+            PASSWORD_CHANGE_TIP: '初始密码仅显示一次，可在管理后台修改密码',
+            LOGOUT_SUCCESS_REFRESH: '退出成功，正在刷新当前页面',
+
+            LOGOUT_ERROR: '退出失败，请重试',
+            LOGOUT_SUCCESS: '退出成功',
+            SUBMIT_PASSWORD_INFO: '密码错误，请重试',
+            SUBMIT_TIME_MACHINE:'发表新鲜事',
+            REPLY_TIME_MACHINE:'回应',
+
+            //comment
+            ChANGYAN_APP_KEY: '',
+            CHANGYAN_CONF: '',
+
+            COMMENT_SYSTEM: '0',
+            COMMENT_SYSTEM_ROOT: '0',
+            COMMENT_SYSTEM_CHANGYAN: '1',
+            COMMENT_SYSTEM_OTHERS: '2',
+            EMOJI: '表情',
+            COMMENT_NEED_EMAIL: '1',
+            COMMENT_NEED_URL: '0',
+            COMMENT_REJECT_PLACEHOLDER: '居然什么也不说，哼',
+            COMMENT_PLACEHOLDER: '说点什么吧……',
+
+            //pjax
+            IS_PJAX: '1',
+            IS_PAJX_COMMENT: '1',
+            PJAX_ANIMATE: 'default',
+            PJAX_TO_TOP: 'auto',
+            TO_TOP_SPEED: '100',
+
+
+            USER_COMPLETED: {"data":""},
+            VDITOR_COMPLETED: {"data":""},
+
+            //ui
+            OPERATION_NOTICE: '操作通知',
+            SCREENSHOT_BEGIN: '正在生成当前页面截图……',
+            SCREENSHOT_NOTICE: '点击顶部下载按钮保存当前卡片',
+            SCREENSHORT_ERROR: '由于图片跨域原因导致截图失败',
+            SCREENSHORT_SUCCESS: '截图成功',
+
+            //music
+            MUSIC_NOTICE: '播放通知',
+            MUSIC_FAILE: '当前音乐地址无效，自动为您播放下一首',
+            MUSIC_FAILE_END: '当前音乐地址无效',
+            MUSIC_LIST_SUCCESS: '歌单歌曲加载成功',
+            MUSIC_AUTO_PLAY_NOTICE:"即将自动播放，点击<a class='stopMusic'>停止播放</a>",
+            MUSIC_API: 'https://www.9kr.cc/index.php/action/handsome-meting-api?server=:server&type=:type&id=:id&auth=:auth&r=:r',
+            MUSIC_API_PARSE: 'https://www.9kr.cc/index.php/action/handsome-meting-api?do=parse',
+
+            //option
+            TOC_TITLE: '文章目录',
+            HEADER_FIX: '固定头部',
+            ASIDE_FIX: '固定导航',
+            ASIDE_FOLDED: '折叠导航',
+            ASIDE_DOCK: '置顶导航',
+            CONTAINER_BOX: '盒子模型',
+            DARK_MODE: '深色模式',
+            DARK_MODE_AUTO: '深色模式（自动）',
+            DARK_MODE_FIXED: '深色模式（固定）',
+            EDITOR_CHOICE: 'origin',
+            NO_LINK_ICO:'',
+            NO_SHOW_RIGHT_SIDE_IN_POST: '',
+
+            CDN_NAME: '',
+            LAZY_LOAD: '',
+            PAGE_ANIMATE: '',
+            THEME_COLOR: '14',
+            THEME_COLOR_EDIT: 'white-white-white',
+            THEME_HEADER_FIX: '1',
+            THEME_ASIDE_FIX: '1',
+            THEME_ASIDE_FOLDED: '',
+            THEME_ASIDE_DOCK: '',
+            THEME_CONTAINER_BOX: '1',
+            THEME_HIGHLIGHT_CODE: '1',
+            THEME_TOC: '1',
+            THEME_DARK_MODE: 'auto',
+
+            THEME_DARK_MODE_VALUE: 'auto',
+            SHOW_SETTING_BUTTON: '1',
+
+            THEME_DARK_HOUR: '18',
+            THEME_LIGHT_HOUR: '6',
+            THUMB_STYLE: 'normal',
+            AUTO_READ_MODE: '',
+            SHOW_LYRIC:'',
+            AUTO_SHOW_LYRIC:'1',
+            //代码高亮
+            CODE_STYLE_LIGHT: 'mac_light',
+            CODE_STYLE_DARK: 'mac_dark',
+            THEME_POST_CONTENT:'1',
+            //other
+            OFF_SCROLL_HEIGHT: '55',
+            SHOW_IMAGE_ALT: '1',
+            USER_LOGIN: '',
+            USE_CACHE: '',
+            POST_SPEECH: '1',
+            POST_MATHJAX: '',
+            SHOW_FOOTER:'1',
+            IS_TRANSPARENT:'',
+            LOADING_IMG:'',
+            PLUGIN_READY:'1',
+
+            FIRST_SCREEN_ANIMATE:'',
+            RENDER_LANG:'zh_CN',
+            SERVICE_WORKER_INSTALLED:false,
+            CLOSE_LEFT_RESIZE:'',
+            CLOSE_RIGHT_RESIZE:'',
+        };
+
+        function clearCache(needRefresh = false) {
+            window.caches && caches.keys && caches.keys().then(function (keys) {
+                keys.forEach(function (key) {
+                    console.log("delete cache",key);
+                    caches.delete(key);
+                    if (needRefresh){
+                        window.location.reload();
+                    }
+                });
+            });
+        }
+
+        function unregisterSW() {
+            navigator.serviceWorker.getRegistrations()
+                .then(function (registrations) {
+                    for (var index in registrations) {
+                        // 清除缓存
+                        registrations[index].unregister();
+                    }
+                });
+        }
+
+        function registerSW() {
+            navigator.serviceWorker.register(LocalConst.BLOG_URL + 'sw.min.js?v=8.4.02022031701')
+                .then(function (reg) {
+                    if (reg.active){
+                        LocalConst.SERVICE_WORKER_INSTALLED = true;
+                    }
+                }).catch(function (error) {
+                console.log('cache failed with ' + error); // registration failed
+            });
+        }
+
+        if ('serviceWorker' in navigator) {
+            if (LocalConst.USE_CACHE) {
+                registerSW();
+            } else {
+                unregisterSW();
+                clearCache();
+            }
+        }
+    </script>
+
+    <!-- 第三方CDN加载CSS -->
+    <link href="https://www.9kr.cc/usr/themes/handsome/assets/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- 本地css静态资源 -->
+
+        <link rel="stylesheet" href="https://www.9kr.cc/usr/themes/handsome/assets/css/origin/function.min.css?v=8.4.02022031701" type="text/css">
+    <link rel="stylesheet" href="https://www.9kr.cc/usr/themes/handsome/assets/css/handsome.min.css?v=8.4.02022031701" type="text/css">
+
+        
+    
+    <!--主题组件css文件加载-->
+    
+    <!--引入英文字体文件-->
+            <link rel="stylesheet preload" href="https://www.9kr.cc/usr/themes/handsome/assets/css/features/font.min.css?v=8.4.02022031701" as="style">
+    
+    <style type="text/css">
+        
+        html.bg {
+        background: #EFEFEF
+        }
+        .cool-transparent .off-screen+#content {
+        background: #EFEFEF
+        }
+@media (max-width:767px){
+    html.bg {
+        background: #EFEFEF
+        }
+        .cool-transparent .off-screen+#content {
+        background: #EFEFEF
+        }
+}
+    </style>
+
+    <!--全站jquery-->
+    <script src="https://www.9kr.cc/usr/themes/handsome/assets/libs/jquery/jquery.min.js"></script>
+    <script>
+        if (LocalConst.USE_CACHE && !window.jQuery){
+            console.log("jQuery is Bad",document.cookie.indexOf("error_cache_refresh"));
+            if (document.cookie && document.cookie.indexOf("error_cache_refresh")===-1){//半个小时内没有刷新过
+                console.log("jQuery is Bad，we need clear cache,retry refresh");
+                document.cookie = "error_cache_refresh=1;max-age=1800;path=/";
+                clearCache(true);
+                if ('serviceWorker' in navigator) {
+                    //todo 尝试注销sw后再启用sw
+                }
+            }
+        }
+    </script>
+    <!--网站统计代码-->
+    <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "bad46x6tj9");
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?75d2ce89369e3025694a1ecf9b782797";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+<link id="vditorHljsStyle" rel="stylesheet" type="text/css" href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/highlight.js/10.6.0/styles/github.min.css"><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/highlight.js/10.6.0/highlight.min.js" async="" id="highlight_js_"></script><style id="swal-pub-style">.swal2-popup.swal2-toast{flex-direction:column;align-items:stretch;width:auto;padding:1.25em;overflow-y:hidden;background:#fff;box-shadow:0 0 .625em #d9d9d9}.swal2-popup.swal2-toast .swal2-header{flex-direction:row;padding:0}.swal2-popup.swal2-toast .swal2-title{flex-grow:1;justify-content:flex-start;margin:0 .625em;font-size:1em}.swal2-popup.swal2-toast .swal2-loading{justify-content:center}.swal2-popup.swal2-toast .swal2-input{height:2em;margin:.3125em auto;font-size:1em}.swal2-popup.swal2-toast .swal2-validation-message{font-size:1em}.swal2-popup.swal2-toast .swal2-footer{margin:.5em 0 0;padding:.5em 0 0;font-size:.8em}.swal2-popup.swal2-toast .swal2-close{position:static;width:.8em;height:.8em;line-height:.8}.swal2-popup.swal2-toast .swal2-content{justify-content:flex-start;margin:0 .625em;padding:0;font-size:1em;text-align:initial}.swal2-popup.swal2-toast .swal2-html-container{padding:.625em 0 0}.swal2-popup.swal2-toast .swal2-html-container:empty{padding:0}.swal2-popup.swal2-toast .swal2-icon{width:2em;min-width:2em;height:2em;margin:0 .5em 0 0}.swal2-popup.swal2-toast .swal2-icon .swal2-icon-content{display:flex;align-items:center;font-size:1.8em;font-weight:700}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-popup.swal2-toast .swal2-icon .swal2-icon-content{font-size:.25em}}.swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line]{top:.875em;width:1.375em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:.3125em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:.3125em}.swal2-popup.swal2-toast .swal2-actions{flex:1;flex-basis:auto!important;align-self:stretch;width:auto;height:2.2em;height:auto;margin:0 .3125em;margin-top:.3125em;padding:0}.swal2-popup.swal2-toast .swal2-styled{margin:.125em .3125em;padding:.3125em .625em;font-size:1em}.swal2-popup.swal2-toast .swal2-styled:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(100,150,200,.5)}.swal2-popup.swal2-toast .swal2-success{border-color:#a5dc86}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line]{position:absolute;width:1.6em;height:3em;transform:rotate(45deg);border-radius:50%}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.8em;left:-.5em;transform:rotate(-45deg);transform-origin:2em 2em;border-radius:4em 0 0 4em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.25em;left:.9375em;transform-origin:0 1.5em;border-radius:0 4em 4em 0}.swal2-popup.swal2-toast .swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-success .swal2-success-fix{top:0;left:.4375em;width:.4375em;height:2.6875em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line]{height:.3125em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=tip]{top:1.125em;left:.1875em;width:.75em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=long]{top:.9375em;right:.1875em;width:1.375em}.swal2-popup.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-tip{-webkit-animation:swal2-toast-animate-success-line-tip .75s;animation:swal2-toast-animate-success-line-tip .75s}.swal2-popup.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-long{-webkit-animation:swal2-toast-animate-success-line-long .75s;animation:swal2-toast-animate-success-line-long .75s}.swal2-popup.swal2-toast.swal2-show{-webkit-animation:swal2-toast-show .5s;animation:swal2-toast-show .5s}.swal2-popup.swal2-toast.swal2-hide{-webkit-animation:swal2-toast-hide .1s forwards;animation:swal2-toast-hide .1s forwards}.swal2-container{display:flex;position:fixed;z-index:1060;top:0;right:0;bottom:0;left:0;flex-direction:row;align-items:center;justify-content:center;padding:.625em;overflow-x:hidden;transition:background-color .1s;-webkit-overflow-scrolling:touch}.swal2-container.swal2-backdrop-show,.swal2-container.swal2-noanimation{background:rgba(0,0,0,.4)}.swal2-container.swal2-backdrop-hide{background:0 0!important}.swal2-container.swal2-top{align-items:flex-start}.swal2-container.swal2-top-left,.swal2-container.swal2-top-start{align-items:flex-start;justify-content:flex-start}.swal2-container.swal2-top-end,.swal2-container.swal2-top-right{align-items:flex-start;justify-content:flex-end}.swal2-container.swal2-center{align-items:center}.swal2-container.swal2-center-left,.swal2-container.swal2-center-start{align-items:center;justify-content:flex-start}.swal2-container.swal2-center-end,.swal2-container.swal2-center-right{align-items:center;justify-content:flex-end}.swal2-container.swal2-bottom{align-items:flex-end}.swal2-container.swal2-bottom-left,.swal2-container.swal2-bottom-start{align-items:flex-end;justify-content:flex-start}.swal2-container.swal2-bottom-end,.swal2-container.swal2-bottom-right{align-items:flex-end;justify-content:flex-end}.swal2-container.swal2-bottom-end>:first-child,.swal2-container.swal2-bottom-left>:first-child,.swal2-container.swal2-bottom-right>:first-child,.swal2-container.swal2-bottom-start>:first-child,.swal2-container.swal2-bottom>:first-child{margin-top:auto}.swal2-container.swal2-grow-fullscreen>.swal2-modal{display:flex!important;flex:1;align-self:stretch;justify-content:center}.swal2-container.swal2-grow-row>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container.swal2-grow-column{flex:1;flex-direction:column}.swal2-container.swal2-grow-column.swal2-bottom,.swal2-container.swal2-grow-column.swal2-center,.swal2-container.swal2-grow-column.swal2-top{align-items:center}.swal2-container.swal2-grow-column.swal2-bottom-left,.swal2-container.swal2-grow-column.swal2-bottom-start,.swal2-container.swal2-grow-column.swal2-center-left,.swal2-container.swal2-grow-column.swal2-center-start,.swal2-container.swal2-grow-column.swal2-top-left,.swal2-container.swal2-grow-column.swal2-top-start{align-items:flex-start}.swal2-container.swal2-grow-column.swal2-bottom-end,.swal2-container.swal2-grow-column.swal2-bottom-right,.swal2-container.swal2-grow-column.swal2-center-end,.swal2-container.swal2-grow-column.swal2-center-right,.swal2-container.swal2-grow-column.swal2-top-end,.swal2-container.swal2-grow-column.swal2-top-right{align-items:flex-end}.swal2-container.swal2-grow-column>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container.swal2-no-transition{transition:none!important}.swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)>.swal2-modal{margin:auto}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-container .swal2-modal{margin:0!important}}.swal2-popup{display:none;position:relative;box-sizing:border-box;flex-direction:column;justify-content:center;width:32em;max-width:100%;padding:1.25em;border:none;border-radius:5px;background:#fff;font-family:inherit;font-size:1rem}.swal2-popup:focus{outline:0}.swal2-popup.swal2-loading{overflow-y:hidden}.swal2-header{display:flex;flex-direction:column;align-items:center;padding:0 1.8em}.swal2-title{position:relative;max-width:100%;margin:0 0 .4em;padding:0;color:#595959;font-size:1.875em;font-weight:600;text-align:center;text-transform:none;word-wrap:break-word}.swal2-actions{display:flex;z-index:1;box-sizing:border-box;flex-wrap:wrap;align-items:center;justify-content:center;width:100%;margin:1.25em auto 0;padding:0}.swal2-actions:not(.swal2-loading) .swal2-styled[disabled]{opacity:.4}.swal2-actions:not(.swal2-loading) .swal2-styled:hover{background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))}.swal2-actions:not(.swal2-loading) .swal2-styled:active{background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))}.swal2-loader{display:none;align-items:center;justify-content:center;width:2.2em;height:2.2em;margin:0 1.875em;-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;border-width:.25em;border-style:solid;border-radius:100%;border-color:#2778c4 transparent #2778c4 transparent}.swal2-styled{margin:.3125em;padding:.625em 1.1em;box-shadow:none;font-weight:500}.swal2-styled:not([disabled]){cursor:pointer}.swal2-styled.swal2-confirm{border:0;border-radius:.25em;background:initial;background-color:#2778c4;color:#fff;font-size:1em}.swal2-styled.swal2-deny{border:0;border-radius:.25em;background:initial;background-color:#d14529;color:#fff;font-size:1em}.swal2-styled.swal2-cancel{border:0;border-radius:.25em;background:initial;background-color:#757575;color:#fff;font-size:1em}.swal2-styled:focus{outline:0;box-shadow:0 0 0 3px rgba(100,150,200,.5)}.swal2-styled::-moz-focus-inner{border:0}.swal2-footer{justify-content:center;margin:1.25em 0 0;padding:1em 0 0;border-top:1px solid #eee;color:#545454;font-size:1em}.swal2-timer-progress-bar-container{position:absolute;right:0;bottom:0;left:0;height:.25em;overflow:hidden;border-bottom-right-radius:5px;border-bottom-left-radius:5px}.swal2-timer-progress-bar{width:100%;height:.25em;background:rgba(0,0,0,.2)}.swal2-image{max-width:100%;margin:1.25em auto}.swal2-close{position:absolute;z-index:2;top:0;right:0;align-items:center;justify-content:center;width:1.2em;height:1.2em;padding:0;overflow:hidden;transition:color .1s ease-out;border:none;border-radius:5px;background:0 0;color:#ccc;font-family:serif;font-size:2.5em;line-height:1.2;cursor:pointer}.swal2-close:hover{transform:none;background:0 0;color:#f27474}.swal2-close:focus{outline:0;box-shadow:inset 0 0 0 3px rgba(100,150,200,.5)}.swal2-close::-moz-focus-inner{border:0}.swal2-content{z-index:1;justify-content:center;margin:0;padding:0 1.6em;color:#545454;font-size:1.125em;font-weight:400;line-height:normal;text-align:center;word-wrap:break-word}.swal2-checkbox,.swal2-file,.swal2-input,.swal2-radio,.swal2-select,.swal2-textarea{margin:1em auto}.swal2-file,.swal2-input,.swal2-textarea{box-sizing:border-box;width:100%;transition:border-color .3s,box-shadow .3s;border:1px solid #d9d9d9;border-radius:.1875em;background:inherit;box-shadow:inset 0 1px 1px rgba(0,0,0,.06);color:inherit;font-size:1.125em}.swal2-file.swal2-inputerror,.swal2-input.swal2-inputerror,.swal2-textarea.swal2-inputerror{border-color:#f27474!important;box-shadow:0 0 2px #f27474!important}.swal2-file:focus,.swal2-input:focus,.swal2-textarea:focus{border:1px solid #b4dbed;outline:0;box-shadow:0 0 0 3px rgba(100,150,200,.5)}.swal2-file::-moz-placeholder,.swal2-input::-moz-placeholder,.swal2-textarea::-moz-placeholder{color:#ccc}.swal2-file:-ms-input-placeholder,.swal2-input:-ms-input-placeholder,.swal2-textarea:-ms-input-placeholder{color:#ccc}.swal2-file::placeholder,.swal2-input::placeholder,.swal2-textarea::placeholder{color:#ccc}.swal2-range{margin:1em auto;background:#fff}.swal2-range input{width:80%}.swal2-range output{width:20%;color:inherit;font-weight:600;text-align:center}.swal2-range input,.swal2-range output{height:2.625em;padding:0;font-size:1.125em;line-height:2.625em}.swal2-input{height:2.625em;padding:0 .75em}.swal2-input[type=number]{max-width:10em}.swal2-file{background:inherit;font-size:1.125em}.swal2-textarea{height:6.75em;padding:.75em}.swal2-select{min-width:50%;max-width:100%;padding:.375em .625em;background:inherit;color:inherit;font-size:1.125em}.swal2-checkbox,.swal2-radio{align-items:center;justify-content:center;background:#fff;color:inherit}.swal2-checkbox label,.swal2-radio label{margin:0 .6em;font-size:1.125em}.swal2-checkbox input,.swal2-radio input{flex-shrink:0;margin:0 .4em}.swal2-input-label{display:flex;justify-content:center;margin:1em auto}.swal2-validation-message{align-items:center;justify-content:center;margin:0 -2.7em;padding:.625em;overflow:hidden;background:#f0f0f0;color:#666;font-size:1em;font-weight:300}.swal2-validation-message::before{content:"!";display:inline-block;width:1.5em;min-width:1.5em;height:1.5em;margin:0 .625em;border-radius:50%;background-color:#f27474;color:#fff;font-weight:600;line-height:1.5em;text-align:center}.swal2-icon{position:relative;box-sizing:content-box;justify-content:center;width:5em;height:5em;margin:1.25em auto 1.875em;border:.25em solid transparent;border-radius:50%;border-color:#000;font-family:inherit;line-height:5em;cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.swal2-icon .swal2-icon-content{display:flex;align-items:center;font-size:3.75em}.swal2-icon.swal2-error{border-color:#f27474;color:#f27474}.swal2-icon.swal2-error .swal2-x-mark{position:relative;flex-grow:1}.swal2-icon.swal2-error [class^=swal2-x-mark-line]{display:block;position:absolute;top:2.3125em;width:2.9375em;height:.3125em;border-radius:.125em;background-color:#f27474}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:1.0625em;transform:rotate(45deg)}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:1em;transform:rotate(-45deg)}.swal2-icon.swal2-error.swal2-icon-show{-webkit-animation:swal2-animate-error-icon .5s;animation:swal2-animate-error-icon .5s}.swal2-icon.swal2-error.swal2-icon-show .swal2-x-mark{-webkit-animation:swal2-animate-error-x-mark .5s;animation:swal2-animate-error-x-mark .5s}.swal2-icon.swal2-warning{border-color:#facea8;color:#f8bb86}.swal2-icon.swal2-info{border-color:#9de0f6;color:#3fc3ee}.swal2-icon.swal2-question{border-color:#c9dae1;color:#87adbd}.swal2-icon.swal2-success{border-color:#a5dc86;color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;transform:rotate(45deg);border-radius:50%}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.4375em;left:-2.0635em;transform:rotate(-45deg);transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.6875em;left:1.875em;transform:rotate(-45deg);transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}.swal2-icon.swal2-success .swal2-success-ring{position:absolute;z-index:2;top:-.25em;left:-.25em;box-sizing:content-box;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%}.swal2-icon.swal2-success .swal2-success-fix{position:absolute;z-index:1;top:.5em;left:1.625em;width:.4375em;height:5.625em;transform:rotate(-45deg)}.swal2-icon.swal2-success [class^=swal2-success-line]{display:block;position:absolute;z-index:2;height:.3125em;border-radius:.125em;background-color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.8125em;width:1.5625em;transform:rotate(45deg)}.swal2-icon.swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;transform:rotate(-45deg)}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-line-tip{-webkit-animation:swal2-animate-success-line-tip .75s;animation:swal2-animate-success-line-tip .75s}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-line-long{-webkit-animation:swal2-animate-success-line-long .75s;animation:swal2-animate-success-line-long .75s}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-circular-line-right{-webkit-animation:swal2-rotate-success-circular-line 4.25s ease-in;animation:swal2-rotate-success-circular-line 4.25s ease-in}.swal2-progress-steps{flex-wrap:wrap;align-items:center;max-width:100%;margin:0 0 1.25em;padding:0;background:inherit;font-weight:600}.swal2-progress-steps li{display:inline-block;position:relative}.swal2-progress-steps .swal2-progress-step{z-index:20;flex-shrink:0;width:2em;height:2em;border-radius:2em;background:#2778c4;color:#fff;line-height:2em;text-align:center}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step{background:#2778c4}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step{background:#add8e6;color:#fff}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step-line{background:#add8e6}.swal2-progress-steps .swal2-progress-step-line{z-index:10;flex-shrink:0;width:2.5em;height:.4em;margin:0 -1px;background:#2778c4}[class^=swal2]{-webkit-tap-highlight-color:transparent}.swal2-show{-webkit-animation:swal2-show .3s;animation:swal2-show .3s}.swal2-hide{-webkit-animation:swal2-hide .15s forwards;animation:swal2-hide .15s forwards}.swal2-noanimation{transition:none}.swal2-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}.swal2-rtl .swal2-close{right:auto;left:0}.swal2-rtl .swal2-timer-progress-bar{right:0;left:auto}@supports (-ms-accelerator:true){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@-webkit-keyframes swal2-toast-show{0%{transform:translateY(-.625em) rotateZ(2deg)}33%{transform:translateY(0) rotateZ(-2deg)}66%{transform:translateY(.3125em) rotateZ(2deg)}100%{transform:translateY(0) rotateZ(0)}}@keyframes swal2-toast-show{0%{transform:translateY(-.625em) rotateZ(2deg)}33%{transform:translateY(0) rotateZ(-2deg)}66%{transform:translateY(.3125em) rotateZ(2deg)}100%{transform:translateY(0) rotateZ(0)}}@-webkit-keyframes swal2-toast-hide{100%{transform:rotateZ(1deg);opacity:0}}@keyframes swal2-toast-hide{100%{transform:rotateZ(1deg);opacity:0}}@-webkit-keyframes swal2-toast-animate-success-line-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@keyframes swal2-toast-animate-success-line-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@-webkit-keyframes swal2-toast-animate-success-line-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@keyframes swal2-toast-animate-success-line-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@-webkit-keyframes swal2-show{0%{transform:scale(.7)}45%{transform:scale(1.05)}80%{transform:scale(.95)}100%{transform:scale(1)}}@keyframes swal2-show{0%{transform:scale(.7)}45%{transform:scale(1.05)}80%{transform:scale(.95)}100%{transform:scale(1)}}@-webkit-keyframes swal2-hide{0%{transform:scale(1);opacity:1}100%{transform:scale(.5);opacity:0}}@keyframes swal2-hide{0%{transform:scale(1);opacity:1}100%{transform:scale(.5);opacity:0}}@-webkit-keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.8125em;width:1.5625em}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.8125em;width:1.5625em}}@-webkit-keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@-webkit-keyframes swal2-rotate-success-circular-line{0%{transform:rotate(-45deg)}5%{transform:rotate(-45deg)}12%{transform:rotate(-405deg)}100%{transform:rotate(-405deg)}}@keyframes swal2-rotate-success-circular-line{0%{transform:rotate(-45deg)}5%{transform:rotate(-45deg)}12%{transform:rotate(-405deg)}100%{transform:rotate(-405deg)}}@-webkit-keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;transform:scale(.4);opacity:0}50%{margin-top:1.625em;transform:scale(.4);opacity:0}80%{margin-top:-.375em;transform:scale(1.15)}100%{margin-top:0;transform:scale(1);opacity:1}}@keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;transform:scale(.4);opacity:0}50%{margin-top:1.625em;transform:scale(.4);opacity:0}80%{margin-top:-.375em;transform:scale(1.15)}100%{margin-top:0;transform:scale(1);opacity:1}}@-webkit-keyframes swal2-animate-error-icon{0%{transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0);opacity:1}}@keyframes swal2-animate-error-icon{0%{transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0);opacity:1}}@-webkit-keyframes swal2-rotate-loading{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}@keyframes swal2-rotate-loading{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow:hidden}body.swal2-height-auto{height:auto!important}body.swal2-no-backdrop .swal2-container{top:auto;right:auto;bottom:auto;left:auto;max-width:calc(100% - .625em * 2);background-color:transparent!important}body.swal2-no-backdrop .swal2-container>.swal2-modal{box-shadow:0 0 10px rgba(0,0,0,.4)}body.swal2-no-backdrop .swal2-container.swal2-top{top:0;left:50%;transform:translateX(-50%)}body.swal2-no-backdrop .swal2-container.swal2-top-left,body.swal2-no-backdrop .swal2-container.swal2-top-start{top:0;left:0}body.swal2-no-backdrop .swal2-container.swal2-top-end,body.swal2-no-backdrop .swal2-container.swal2-top-right{top:0;right:0}body.swal2-no-backdrop .swal2-container.swal2-center{top:50%;left:50%;transform:translate(-50%,-50%)}body.swal2-no-backdrop .swal2-container.swal2-center-left,body.swal2-no-backdrop .swal2-container.swal2-center-start{top:50%;left:0;transform:translateY(-50%)}body.swal2-no-backdrop .swal2-container.swal2-center-end,body.swal2-no-backdrop .swal2-container.swal2-center-right{top:50%;right:0;transform:translateY(-50%)}body.swal2-no-backdrop .swal2-container.swal2-bottom{bottom:0;left:50%;transform:translateX(-50%)}body.swal2-no-backdrop .swal2-container.swal2-bottom-left,body.swal2-no-backdrop .swal2-container.swal2-bottom-start{bottom:0;left:0}body.swal2-no-backdrop .swal2-container.swal2-bottom-end,body.swal2-no-backdrop .swal2-container.swal2-bottom-right{right:0;bottom:0}@media print{body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow-y:scroll!important}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown)>[aria-hidden=true]{display:none}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) .swal2-container{position:static!important}}body.swal2-toast-shown .swal2-container{background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-top{top:0;right:auto;bottom:auto;left:50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-top-end,body.swal2-toast-shown .swal2-container.swal2-top-right{top:0;right:0;bottom:auto;left:auto}body.swal2-toast-shown .swal2-container.swal2-top-left,body.swal2-toast-shown .swal2-container.swal2-top-start{top:0;right:auto;bottom:auto;left:0}body.swal2-toast-shown .swal2-container.swal2-center-left,body.swal2-toast-shown .swal2-container.swal2-center-start{top:50%;right:auto;bottom:auto;left:0;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-center{top:50%;right:auto;bottom:auto;left:50%;transform:translate(-50%,-50%)}body.swal2-toast-shown .swal2-container.swal2-center-end,body.swal2-toast-shown .swal2-container.swal2-center-right{top:50%;right:0;bottom:auto;left:auto;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-left,body.swal2-toast-shown .swal2-container.swal2-bottom-start{top:auto;right:auto;bottom:0;left:0}body.swal2-toast-shown .swal2-container.swal2-bottom{top:auto;right:auto;bottom:0;left:50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-end,body.swal2-toast-shown .swal2-container.swal2-bottom-right{top:auto;right:0;bottom:0;left:auto}</style><style id="panai-style">
+                .panai-container { z-index: 99999!important }
+                .panai-popup { font-size: 14px !important }
+                .panai-setting-label { display: flex;align-items: center;justify-content: space-between;padding-top: 20px; }
+                .panai-setting-checkbox { width: 16px;height: 16px; }
+            </style></head>
+
+<body id="body" class="fix-padding skt-loading">
+
+
+<!-- aside -->
+  
+  <div id="alllayout" class="app app-aside-fix container app-header-fixed">  <!-- headnav -->
+  <header id="header" class="app-header navbar box-shadow-bottom-lg fix-padding" role="menu">
+    <!-- navbar header（交集处） -->
+    <div id="header_left" class="text-ellipsis navbar-header bg-white">
+    <button class="pull-right visible-xs" ui-toggle-class="show animated animated-lento fadeIn" target=".navbar-collapse">
+        <span class="menu-icons"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></span>
+    </button>
+    <button class="pull-left visible-xs" ui-toggle-class="off-screen animated" target=".app-aside" ui-scroll="app">
+        <span class="menu-icons"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></span>
+    </button>
+    <!-- brand -->
+    <a href="https://www.9kr.cc/" class="navbar-brand text-lt">
+        <span id="navbar-brand-day">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                            <span class="hidden-folded m-l-xs">Kris</span>
+                    </span>
+            </a>
+    <!-- / brand -->
+    </div>
+    <!-- / navbar header -->
+
+    <!-- navbar collapse（顶部导航栏） -->
+    <div id="header_right" class="collapse pos-rlt navbar-collapse bg-white">
+    <!-- statitic info-->
+        <ul class="nav navbar-nav hidden-sm">
+        <li class="dropdown pos-stc">
+            <a id="statistic_pane" data-status="false" href="#" data-toggle="dropdown" class="dropdown-toggle feathericons dropdown-toggle" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-pie-chart"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path><path d="M22 12A10 10 0 0 0 12 2v10z"></path></svg>
+                <span class="caret"></span>
+            </a>
+            <div class="dropdown-menu wrapper w-full bg-white">
+                <div class="row">
+                    <div class="col-sm-8 b-l b-light">
+                        <div class="m-l-xs m-t-xs m-b-sm font-bold">动态日历<span data-toggle="tooltip" title="" class="info-icons" data-original-title="统计近10个月的文章和作者评论数目"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                            </span></div>
+                        <div class="text-center">
+                            <nav class="loading-echart text-center m-t-lg m-b-lg">
+                                <p class="infinite-scroll-request"><i class="animate-spin fontello fontello-refresh"></i>Loading...</p>
+                            </nav>
+                            <div id="post-calendar" class="top-echart hide"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 b-l b-light">
+                        <div class="m-l-xs m-t-xs m-b-sm font-bold">分类雷达图</div>
+                        <div class="text-center">
+                            <nav class="loading-echart text-center m-t-lg m-b-lg">
+                                <p class="infinite-scroll-request"><i class="animate-spin fontello fontello-refresh"></i>Loading...</p>
+                            </nav>
+                            <div id="category-radar" class="top-echart hide"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 b-l b-light">
+                        <div class="m-l-xs m-t-xs m-b-sm font-bold">发布统计图</div>
+                        <div class="text-center">
+                            <nav class="loading-echart text-center m-t-lg m-b-lg">
+                                <p class="infinite-scroll-request"><i class="animate-spin fontello fontello-refresh"></i>Loading...</p>
+                            </nav>
+                            <div id="posts-chart" class="top-echart hide"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 b-l b-light">
+                        <div class="m-l-xs m-t-xs m-b-sm font-bold">分类统计图</div>
+                        <div class="text-center">
+                            <nav class="loading-echart text-center m-t-lg m-b-lg">
+                                <p class="infinite-scroll-request"><i class="animate-spin fontello fontello-refresh"></i>Loading...</p>
+                            </nav>
+                            <div id="categories-chart" class="top-echart hide"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 b-l b-light">
+                        <div class="m-l-xs m-t-xs m-b-sm font-bold">标签统计图</div>
+                        <div class="text-center">
+                            <nav class="loading-echart text-center m-t-lg m-b-lg">
+                                <p class="infinite-scroll-request"><i class="animate-spin fontello fontello-refresh"></i>Loading...</p>
+                            </nav>
+                            <div id="tags-chart" class="top-echart hide"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+    
+    <!-- search form -->
+
+    <form id="searchform1" class="searchform navbar-form navbar-form-sm navbar-left shift" method="post" role="search">
+        <div class="form-group">
+            <div class="input-group rounded bg-white-pure box-shadow-wrap-normal">
+                <input autocomplete="off" id="search_input" type="search" name="s" class="transparent rounded form-control input-sm no-borders padder" required="" placeholder="输入关键词搜索…">
+                <!--搜索提示-->
+                <ul id="search_tips_drop" class="overflow-y-auto small-scroll-bar dropdown-menu hide" style="display:
+                 block;top:
+                30px; left: 0px;">
+                </ul>
+                <span id="search_submit" class="transparent input-group-btn">
+                  <button type="submit" class="transparent btn btn-sm">
+                      <span class="feathericons" id="icon-search"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></span>
+                      <span class="feathericons animate-spin  hide" id="spin-search"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-loader"><line x1="12" y1="2" x2="12" y2="6"></line><line x1="12" y1="18" x2="12" y2="22"></line><line x1="4.93" y1="4.93" x2="7.76" y2="7.76"></line><line x1="16.24" y1="16.24" x2="19.07" y2="19.07"></line><line x1="2" y1="12" x2="6" y2="12"></line><line x1="18" y1="12" x2="22" y2="12"></line><line x1="4.93" y1="19.07" x2="7.76" y2="16.24"></line><line x1="16.24" y1="7.76" x2="19.07" y2="4.93"></line></svg></span>
+                      <!--                      <i class="fontello fontello-search" id="icon-search"></i>-->
+                      <!--                      <i class="animate-spin  fontello fontello-spinner hide" id="spin-search"></i>-->
+                  </button>
+              </span>
+            </div>
+        </div>
+    </form>
+    <a href="" style="display: none" id="searchUrl"></a>
+    <!-- / search form -->
+        <ul class="nav navbar-nav navbar-right">
+                    <li class="music-box hidden-xs hidden-sm" id="handsome_global_player">
+                <div class="handsome_aplayer player-global" data-preload="false" data-autoplay="false" data-listmaxheight="200px" data-order="list" data-theme="#8ea9a7" data-listfolded="true" data-fix_position="true" data-i_autoplay="">
+<div class="handsomePlayer-tip-loading"><span></span> <span></span> <span></span> <span></span><span></span></div><div class="handsome_aplayer_music" data-id="888233349" data-server="tencent" data-type="playlist" data-auth="95dc88a8b8ab2a92d0acedd5f5c2c778"></div>
+</div>
+            </li>
+            <li class="dropdown hidden-xs hidden-sm"><a id="global_player_toggle" class="skPlayer-list-switch dropdown-toggle
+            feathericons"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-disc"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="3"></circle></svg><span class="visible-xs-inline"></span></a></li>
+                                    <!--闲言碎语-->
+            <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="feathericons dropdown-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitch"><path d="M21 2H3v16h5v4l4-4h5l4-4V2zm-10 9V7m5 4V7"></path></svg>
+                    <span class="visible-xs-inline">
+              闲言碎语              </span>
+                    <span class="badge badge-sm up bg-danger pull-right-xs"></span>
+                </a>
+                <!-- dropdown -->
+                <div class="dropdown-menu w-xl animated fadeInUp">
+                    <div class="panel bg-white">
+                        <div class="panel-heading b-light bg-light">
+                            <strong>
+                                闲言碎语                            </strong>
+                        </div>
+                        <div class="list-group" id="smallRecording">
+                            <a target="_blank" href="https://www.9kr.cc/admin/write-page.php" class="list-group-item"><span class="clear block m-b-none">这是一条默认的说说，如果你看到这条动态，请去后台新建独立页面，地址填写cross,自定义模板选择时光机。具体说明请参见主题的使用攻略。<br><small class="text-muted">April 14th, 2022 a	 01:12 am</small></span></a>                        </div>
+                    </div>
+                </div>
+            </li>
+            <!--/闲言碎语-->
+                            <!--登录管理-->
+            <li class="dropdown" id="easyLogin">
+                <a onclick="return false" data-toggle="dropdown" class="dropdown-toggle clear">
+                                            <span class="feathericons"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-key"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path></svg></span>
+                                        <b class="caret"></b><!--下三角符号-->
+                </a>
+                <!-- dropdown(已经登录) -->
+                                    <div class="dropdown-menu w-lg wrapper bg-white animated fadeIn" aria-labelledby="navbar-login-dropdown" id="user_panel">
+
+                        <div class="tab-container post_tab" data-stoppropagation="true">
+                            
+                            <div class="tab-content no-border">
+                                <div role="tabpanel" id="login_container" class="tab-pane fade active in">
+                                    <form id="login_form" action="https://www.9kr.cc/index.php/action/login?_=591c2bac82d29b5fa89e4c1bf52cc6e9" method="post">
+                                        <div class="form-group">
+                                            <label for="navbar-login-user">用户名</label>
+                                            <input type="text" name="name" id="navbar-login-user" class="form-control" placeholder="用户名或电子邮箱"></div>
+                                        <div class="form-group">
+                                            <label for="navbar-login-password">密码</label>
+                                            <input autocomplete="" type="password" name="password" id="navbar-login-password" class="form-control" placeholder="密码"></div>
+                                        <button style="width: 100%" type="submit" class="user_op_submit btn-rounded box-shadow-wrap-lg btn-gd-primary padder-lg">
+                                            <span>登录</span>
+                                            <span class="text-active">登录中...</span>
+                                            <i class="animate-spin  fontello fontello-spinner hide"></i>
+                                        </button>
+
+                                        <input type="hidden" name="referer" value="https://www.9kr.cc/"></form>
+                                </div>
+
+                                                            </div>
+                        </div>
+                    </div>
+                            </li>
+            <!--/登录管理-->
+            </ul>
+    </div>
+    <!-- / navbar collapse -->
+</header>
+  <!-- / headnav -->
+
+  <!--选择侧边栏的颜色-->
+  <aside id="aside" class="gpu-speed app-aside hidden-xs bg-white" style="visibility: visible;">  <!--<aside>-->
+        <div class="aside-wrap" layout="column">
+        <div class="navi-wrap scroll-y scroll-hide" flex="">
+          <!-- user -->
+          <div class="clearfix hidden-xs text-center hide  show" id="aside-user" style="visibility: visible;">
+            <div class="dropdown wrapper ">
+                <div ui-nav="">
+                          <a href="https://www.9kr.cc/index.php/cross.html">
+                            <span class="thumb-lg w-auto-folded avatar m-t-sm  ">
+                  <img src="https://www.9kr.cc/usr/themes/handsome/assets/img/avatar.png" class="img-full img-circle">
+                </span>
+              </a>
+                </div>
+              <a href="#" data-toggle="dropdown" class="dropdown-toggle hidden-folded  ">
+                <span class="clear">
+                  <span class="block m-t-sm">
+                    <strong class="font-bold text-lt">Kris</strong>
+                    <b class="caret"></b>
+                  </span>
+                  <span class="text-muted text-xs block">一介咸鱼</span>
+                </span>
+              </a>
+              <!-- dropdown -->
+              <ul class="dropdown-menu animated fadeInRight w hidden-folded no-padder">
+                <li class="wrapper b-b m-b-sm bg-info m-n">
+                  <span class="arrow top hidden-folded arrow-info"></span>
+                  <div>
+                                                <p>晚上好，注意早点休息</p>
+                                  </div>
+                  <div class="progress progress-xs m-b-none dker">
+                    <div class="progress-bar bg-white" data-toggle="tooltip" data-original-title="时间已经度过4.17%" style="width: 4.17%"></div>
+                  </div>
+                </li>
+              </ul>
+              <!-- / dropdown -->
+            </div>
+          </div>
+          <!-- / user -->
+
+          <!-- nav -->
+          <nav ui-nav="" class="navi clearfix">
+            <ul class="nav">
+             <!--index-->
+                <div class="line dk hidden-folded"></div>
+                <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+                <span>导航</span>
+              </li>
+                                          <!--主页-->
+              <li>
+                <a href="https://www.9kr.cc/" class="auto">
+                    <span class="nav-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg></span>
+                    <span>首页</span>
+                </a>
+              </li>
+              <!-- /主页 -->
+                                                          <li class="line dk"></li>
+			<!--Components-->
+              <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+                <span>组成</span>
+              </li>
+              <!--分类category-->
+                              <li>
+                <a class="auto">
+                  <span class="pull-right text-muted">
+                    <i class="fontello icon-fw fontello-angle-right text"></i>
+                    <i class="fontello icon-fw fontello-angle-down text-active"></i>
+                  </span>
+<!--                  <i class="glyphicon glyphicon-th"></i>-->
+                    <span class="nav-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg></span>
+
+                    <span>分类</span>
+                </a>
+                <ul class="nav nav-sub dk">
+                  <li class="nav-sub-header">
+                    <a>
+                      <span>分类</span>
+                    </a>
+                  </li>
+                  <!--循环输出分类-->
+
+                    <li class="category-level-0 category-parent"><a href="https://www.9kr.cc/index.php/category/default/"><b class="badge pull-right">5</b>默认分类</a></li>                    
+                    <!--/循环输出分类-->
+
+                </ul>
+              </li>
+                                    <!--独立页面pages-->
+              <li>
+                <a class="auto">
+                  <span class="pull-right text-muted">
+                    <i class="fontello icon-fw fontello-angle-right text"></i>
+                    <i class="fontello icon-fw fontello-angle-down text-active"></i>
+                  </span>
+                    <span class="nav-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline></svg></span>
+                  <span>页面</span>
+                </a>
+                <ul class="nav nav-sub dk">
+                  <li class="nav-sub-header">
+                    <a data-no-instant="">
+                      <span>页面</span>
+                    </a>
+                  </li><!--这个字段不会被显示出来-->
+                  <!--循环输出独立页面-->
+                                                                                   <li><a href="https://www.9kr.cc/index.php/start-page.html"><span>关于</span></a></li>
+                                   </ul>
+              </li>
+                                                    <!--友情链接-->
+              <li>
+                <a class="auto">
+                  <span class="pull-right text-muted">
+                    <i class="fontello icon-fw fontello-angle-right text"></i>
+                    <i class="fontello icon-fw fontello-angle-down text-active"></i>
+                  </span>
+                    <span class="nav-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></span>
+                  <span>友链</span>
+                </a>
+                <ul class="nav nav-sub dk">
+                  <li class="nav-sub-header">
+                    <a data-no-instant="">
+                      <span>友链</span>
+                    </a>
+                  </li>
+                  <!--使用links插件，输出全站友链-->
+                                 </ul>
+              </li>
+                                                </ul>
+          </nav>
+          <!-- nav -->
+        </div>
+          <!--end of .navi-wrap-->
+          <!--left_footer-->
+                    <div id="left_footer" class="footer wrapper-xs text-center nav-xs lt">
+                  
+                                        <div class="col-xs-4 no-padder">
+                          <a target="_blank" class="tinav" href="https://www.9kr.cc/admin/" title="" data-toggle="tooltip" data-placement="top" data-original-title="后台管理">
+                              <span class="left-bottom-icons block"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg></span>
+                              <small class="text-muted">管理</small>
+                          </a>
+                      </div>
+                                    <div class="col-xs-4 no-padder">
+                      <a target="_blank" class="tinav" href="https://www.9kr.cc/index.php/feed/" title="" data-toggle="tooltip" data-placement="top" data-original-title="文章RSS订阅">
+                          <span class="left-bottom-icons block"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></span>
+                          <small class="text-muted">文章</small>
+                      </a>
+                  </div>
+                  <div class="col-xs-4 no-padder">
+                      <a target="_blank" href="https://www.9kr.cc/index.php/feed/comments/" title="" data-toggle="tooltip" data-placement="top" data-original-title="评论RSS订阅">
+                          <span class="left-bottom-icons block"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg></span>
+                          <small class="text-muted">评论</small>
+                      </a>
+                  </div>
+          </div>
+          
+      </div><!--.aside-wrap-->
+  </aside>
+<!-- content -->
+
+<div id="content" class="app-content">
+    <div class="resize-pane">
+        <div id="trigger_left_content" class="trigger_content" style="display: block; left: 220px;"><div class="trigger_drag_content"></div></div>
+        <div id="trigger_left_button" data-placement="right" data-toggle="tooltip" data-original-title="点击展开左侧边栏" class="normal-widget resize-pane-trigger box-shadow-wrap-lg"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sidebar"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="3" x2="9" y2="21"></line></svg></div>
+    </div>
+    <!--loading animate-->
+    <div id="loading" class="butterbar active hide">
+            <span class="bar"></span>
+        </div>
+
+
+
+
+
+<!-- / aside -->
+
+<!-- <div id="content" class="app-content"> -->
+<a class="off-screen-toggle hide"></a>
+<main class="app-content-body ">
+    <div class="hbox hbox-auto-xs hbox-auto-sm">
+        <div class="col center-part gpu-speed" id="post-panel">
+
+
+                                                <header class="bg-light lter wrapper-md">
+                                <h1 class="m-n font-thin text-black l-h">Kris</h1>
+                                                <small class="text-muted letterspacing indexWords">迷失的人迷失了，相逢的人会再相逢</small>
+                            </header>
+                        <div class="wrapper-md skt-loading">
+
+                                <!--首页输出文章-->
+
+                <div class="blog-post post-list"><div class="single-post panel box-shadow-wrap-normal">
+    <div class="index-post-img">
+        <a href="https://www.9kr.cc/index.php/archives/6/">
+            <div class="item-thumb lazy" style="background-image: url(https://www.9kr.cc/usr/themes/handsome/assets/img/sj/4.jpg)">
+</div>
+           
+        </a>
+    </div><div class="post-meta wrapper-lg">    <h2 class="m-t-none text-ellipsis index-post-title text-title"><a href="https://www.9kr.cc/index.php/archives/6/">Docker中HASS无法查看历史数据解决</a></h2><p class="summary l-h-2x text-muted">环境宝塔面板HASS在Docker中mysql在宝塔安装原因在宝塔安装Docker管理器，安装好后Docker重启HASS的容器IP变了，新IP不在mys...</p><div class="line line-lg b-b b-light"></div>
+<div class="text-muted post-item-foot-icon text-ellipsis list-inline">
+<li>
+<span class="m-r-sm right-small-icons"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></span><a href="https://www.9kr.cc/index.php/author/1/">kris</a></li>
+
+<li><span class="right-small-icons m-r-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></span>2022 年 04 月 14 日</li><li><span class="right-small-icons m-r-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg></span><a href="https://www.9kr.cc/index.php/archives/6/#comments">暂无评论</a></li></div><!--text-muted-->
+</div><!--post-meta wrapper-lg-->
+</div><!--panel/panel-small-->
+<div class="single-post panel box-shadow-wrap-normal">
+    <div class="index-post-img">
+        <a href="https://www.9kr.cc/index.php/archives/5/">
+            <div class="item-thumb lazy" style="background-image: url(https://www.9kr.cc/usr/themes/handsome/assets/img/sj/3.jpg)">
+</div>
+           
+        </a>
+    </div><div class="post-meta wrapper-lg">    <h2 class="m-t-none text-ellipsis index-post-title text-title"><a href="https://www.9kr.cc/index.php/archives/5/">轻量MQTT服务器mosquitto搭建笔记</a></h2><p class="summary l-h-2x text-muted">前言EMQX太大了，而且在腾讯云的CentOS装了半天没装上，看Q群里有人提到这个，就去试试。参考链接：智能家居-ESPhome - 知乎Home Ass...</p><div class="line line-lg b-b b-light"></div>
+<div class="text-muted post-item-foot-icon text-ellipsis list-inline">
+<li>
+<span class="m-r-sm right-small-icons"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></span><a href="https://www.9kr.cc/index.php/author/1/">kris</a></li>
+
+<li><span class="right-small-icons m-r-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></span>2022 年 04 月 14 日</li><li><span class="right-small-icons m-r-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg></span><a href="https://www.9kr.cc/index.php/archives/5/#comments">暂无评论</a></li></div><!--text-muted-->
+</div><!--post-meta wrapper-lg-->
+</div><!--panel/panel-small-->
+<div class="single-post panel box-shadow-wrap-normal">
+    <div class="index-post-img">
+        <a href="https://www.9kr.cc/index.php/archives/4/">
+            <div class="item-thumb lazy" style="background-image: url(https://www.9kr.cc/usr/themes/handsome/assets/img/sj/1.jpg)">
+</div>
+           
+        </a>
+    </div><div class="post-meta wrapper-lg">    <h2 class="m-t-none text-ellipsis index-post-title text-title"><a href="https://www.9kr.cc/index.php/archives/4/">雪球API获取股票价格</a></h2><p class="summary l-h-2x text-muted">前言新浪的API不知何时失效了，只好另寻出路。于是找到了雪球。来源：滚雪球 -- 提取雪球数据API Token (crackcreed.com)基本信息...</p><div class="line line-lg b-b b-light"></div>
+<div class="text-muted post-item-foot-icon text-ellipsis list-inline">
+<li>
+<span class="m-r-sm right-small-icons"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></span><a href="https://www.9kr.cc/index.php/author/1/">kris</a></li>
+
+<li><span class="right-small-icons m-r-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></span>2022 年 04 月 14 日</li><li><span class="right-small-icons m-r-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg></span><a href="https://www.9kr.cc/index.php/archives/4/#comments">暂无评论</a></li></div><!--text-muted-->
+</div><!--post-meta wrapper-lg-->
+</div><!--panel/panel-small-->
+<div class="single-post panel box-shadow-wrap-normal">
+    <div class="index-post-img">
+        <a href="https://www.9kr.cc/index.php/archives/3/">
+            <div class="item-thumb lazy" style="background-image: url(https://www.9kr.cc/usr/themes/handsome/assets/img/sj/7.jpg)">
+</div>
+           
+        </a>
+    </div><div class="post-meta wrapper-lg">    <h2 class="m-t-none text-ellipsis index-post-title text-title"><a href="https://www.9kr.cc/index.php/archives/3/">宝塔PHP8_1无法安装fileinfo解决</a></h2><p class="summary l-h-2x text-muted">解决步骤进入安装路径cd /www/server/php/81/include/php/ext下载拓展wget https://www.php.net/d...</p><div class="line line-lg b-b b-light"></div>
+<div class="text-muted post-item-foot-icon text-ellipsis list-inline">
+<li>
+<span class="m-r-sm right-small-icons"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></span><a href="https://www.9kr.cc/index.php/author/1/">kris</a></li>
+
+<li><span class="right-small-icons m-r-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></span>2022 年 04 月 14 日</li><li><span class="right-small-icons m-r-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg></span><a href="https://www.9kr.cc/index.php/archives/3/#comments">暂无评论</a></li></div><!--text-muted-->
+</div><!--post-meta wrapper-lg-->
+</div><!--panel/panel-small-->
+<div class="single-post panel box-shadow-wrap-normal">
+    <div class="index-post-img">
+        <a href="https://www.9kr.cc/index.php/archives/7/">
+            <div class="item-thumb lazy" style="background-image: url(https://www.9kr.cc/usr/themes/handsome/assets/img/sj/6.jpg)">
+</div>
+           
+        </a>
+    </div><div class="post-meta wrapper-lg">    <h2 class="m-t-none text-ellipsis index-post-title text-title"><a href="https://www.9kr.cc/index.php/archives/7/">HASS修改数据库温度数据尝试记录</a></h2><p class="summary l-h-2x text-muted">前言设备测试时HASS记录了几个0度的数据，不好看想除掉。直接删除的报错SQL 错误 [1451] [23000]: Cannot delete or u...</p><div class="line line-lg b-b b-light"></div>
+<div class="text-muted post-item-foot-icon text-ellipsis list-inline">
+<li>
+<span class="m-r-sm right-small-icons"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></span><a href="https://www.9kr.cc/index.php/author/1/">kris</a></li>
+
+<li><span class="right-small-icons m-r-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></span>2022 年 02 月 19 日</li><li><span class="right-small-icons m-r-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg></span><a href="https://www.9kr.cc/index.php/archives/7/#comments">暂无评论</a></li></div><!--text-muted-->
+</div><!--post-meta wrapper-lg-->
+</div><!--panel/panel-small-->
+</div>                <!--分页首页按钮-->
+                <nav class="text-center m-t-lg m-b-lg" role="navigation">
+                                    </nav>
+                <style>
+                    .page-navigator>li>a, .page-navigator>li>span{
+                        line-height: 1.42857143;
+                        padding: 6px 12px;
+                    }
+                </style>
+            </div>
+            <div class="resize-pane">
+        <div id="trigger_right_content" class="trigger_content" style="display: block;"><div class="trigger_drag_content"></div></div>
+        <div id="trigger_right_button" data-placement="left" data-toggle="tooltip" data-original-title="点击展开右侧边栏" class="normal-widget resize-pane-trigger box-shadow-wrap-lg"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sidebar"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="3" x2="9" y2="21"></line></svg></div>
+    </div>        </div>
+        <!--首页右侧栏-->
+                 <aside id="rightAside" class="asideBar col w-md bg-white-only bg-auto no-border-xs" role="complementary">
+     <div id="sidebar">
+               <section id="tabs-4" class="widget widget_tabs clear">
+       <div class="nav-tabs-alt no-js-hide">
+        <ul class="nav nav-tabs nav-justified box-shadow-bottom-normal tablist" role="tablist">
+         <li data-index="0" class="active" role="presentation"> <a data-target="#widget-tabs-4-hots" role="tab" aria-controls="widget-tabs-4-hots" aria-expanded="true" data-toggle="tab"><div class="sidebar-icon wrapper-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-thumbs-up"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path></svg></div><span class="sr-only">热门文章</span> </a></li>
+                            <li role="presentation" data-index="1"> <a data-target="#widget-tabs-4-comments" role="tab" aria-controls="widget-tabs-4-comments" aria-expanded="false" data-toggle="tab"><div class="sidebar-icon wrapper-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg></div> <span class="sr-only">最新评论</span> </a></li>
+                        <li data-index="2" role="presentation"> <a data-target="#widget-tabs-4-random" role="tab" aria-controls="widget-tabs-4-random" aria-expanded="false" data-toggle="tab"> <div class="sidebar-icon wrapper-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-gift"><polyline points="20 12 20 22 4 22 4 12"></polyline><rect x="2" y="7" width="20" height="5"></rect><line x1="12" y1="22" x2="12" y2="7"></line><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path></svg></div>  <span class="sr-only">随机文章</span>
+             </a></li>
+            <span class="navs-slider-bar"></span>
+        </ul>
+       </div>
+       <div class="tab-content">
+       <!--热门文章-->
+        <div id="widget-tabs-4-hots" class="tab-pane  fade in wrapper-md active" role="tabpanel">
+         <h5 class="widget-title m-t-none text-md">热门文章</h5>
+         <ul class="list-group no-bg no-borders pull-in m-b-none">
+          <li class="list-group-item">
+                <a href="https://www.9kr.cc/index.php/archives/3/" class="pull-left thumb-sm m-r"><img src="https://www.9kr.cc/usr/themes/handsome/assets/img/sj2/6.jpg" class="img-40px normal-shadow img-square"></a>
+                <div class="clear">
+                    <h4 class="h5 l-h text-second"> <a href="https://www.9kr.cc/index.php/archives/3/" title="宝塔PHP8_1无法安装fileinfo解决"> 宝塔PHP8_1无法安装fileinfo解决 </a></h4>
+                    <small class="text-muted post-head-icon"><span class="meta-views"> <span class="right-small-icons"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-circle"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg></span>  <span class="sr-only">评论数：</span> <span class="meta-value">0</span>
+                    </span></small></div></li><li class="list-group-item">
+                <a href="https://www.9kr.cc/index.php/archives/4/" class="pull-left thumb-sm m-r"><img src="https://www.9kr.cc/usr/themes/handsome/assets/img/sj2/7.jpg" class="img-40px normal-shadow img-square"></a>
+                <div class="clear">
+                    <h4 class="h5 l-h text-second"> <a href="https://www.9kr.cc/index.php/archives/4/" title="雪球API获取股票价格"> 雪球API获取股票价格 </a></h4>
+                    <small class="text-muted post-head-icon"><span class="meta-views"> <span class="right-small-icons"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-circle"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg></span>  <span class="sr-only">评论数：</span> <span class="meta-value">0</span>
+                    </span></small></div></li><li class="list-group-item">
+                <a href="https://www.9kr.cc/index.php/archives/5/" class="pull-left thumb-sm m-r"><img src="https://www.9kr.cc/usr/themes/handsome/assets/img/sj2/10.jpg" class="img-40px normal-shadow img-square"></a>
+                <div class="clear">
+                    <h4 class="h5 l-h text-second"> <a href="https://www.9kr.cc/index.php/archives/5/" title="轻量MQTT服务器mosquitto搭建笔记"> 轻量MQTT服务器mosquitto搭建笔记 </a></h4>
+                    <small class="text-muted post-head-icon"><span class="meta-views"> <span class="right-small-icons"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-circle"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg></span>  <span class="sr-only">评论数：</span> <span class="meta-value">0</span>
+                    </span></small></div></li><li class="list-group-item">
+                <a href="https://www.9kr.cc/index.php/archives/6/" class="pull-left thumb-sm m-r"><img src="https://www.9kr.cc/usr/themes/handsome/assets/img/sj2/2.jpg" class="img-40px normal-shadow img-square"></a>
+                <div class="clear">
+                    <h4 class="h5 l-h text-second"> <a href="https://www.9kr.cc/index.php/archives/6/" title="Docker中HASS无法查看历史数据解决"> Docker中HASS无法查看历史数据解决 </a></h4>
+                    <small class="text-muted post-head-icon"><span class="meta-views"> <span class="right-small-icons"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-circle"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg></span>  <span class="sr-only">评论数：</span> <span class="meta-value">0</span>
+                    </span></small></div></li><li class="list-group-item">
+                <a href="https://www.9kr.cc/index.php/archives/7/" class="pull-left thumb-sm m-r"><img src="https://www.9kr.cc/usr/themes/handsome/assets/img/sj2/8.jpg" class="img-40px normal-shadow img-square"></a>
+                <div class="clear">
+                    <h4 class="h5 l-h text-second"> <a href="https://www.9kr.cc/index.php/archives/7/" title="HASS修改数据库温度数据尝试记录"> HASS修改数据库温度数据尝试记录 </a></h4>
+                    <small class="text-muted post-head-icon"><span class="meta-views"> <span class="right-small-icons"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-circle"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg></span>  <span class="sr-only">评论数：</span> <span class="meta-value">0</span>
+                    </span></small></div></li>         </ul>
+        </div>
+                   <!--最新评论-->
+        <div id="widget-tabs-4-comments" class="tab-pane fade wrapper-md no-js-show" role="tabpanel">
+         <h5 class="widget-title m-t-none text-md">最新评论</h5>
+         <ul class="list-group no-borders pull-in auto m-b-none no-bg">
+                             </ul>
+        </div>
+                   <!--随机文章-->
+        <div id="widget-tabs-4-random" class="tab-pane fade wrapper-md no-js-show" role="tabpanel">
+            <h5 class="widget-title m-t-none text-md">随机文章</h5>
+            <ul class="list-group no-bg no-borders pull-in">
+            <li class="list-group-item">
+                <a href="https://www.9kr.cc/index.php/archives/5/" class="pull-left thumb-sm m-r"><img src="https://www.9kr.cc/usr/themes/handsome/assets/img/sj2/6.jpg" class="img-40px normal-shadow img-square"></a>
+                <div class="clear">
+                    <h4 class="h5 l-h text-second"> <a href="https://www.9kr.cc/index.php/archives/5/" title="轻量MQTT服务器mosquitto搭建笔记"> 轻量MQTT服务器mosquitto搭建笔记 </a></h4>
+                    <small class="text-muted post-head-icon"><span class="meta-views "> <span class="right-small-icons"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-circle"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg></span> <span class="sr-only">评论数：</span> <span class="meta-value">0</span>
+                    </span></small></div></li><li class="list-group-item">
+                <a href="https://www.9kr.cc/index.php/archives/4/" class="pull-left thumb-sm m-r"><img src="https://www.9kr.cc/usr/themes/handsome/assets/img/sj2/7.jpg" class="img-40px normal-shadow img-square"></a>
+                <div class="clear">
+                    <h4 class="h5 l-h text-second"> <a href="https://www.9kr.cc/index.php/archives/4/" title="雪球API获取股票价格"> 雪球API获取股票价格 </a></h4>
+                    <small class="text-muted post-head-icon"><span class="meta-views "> <span class="right-small-icons"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-circle"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg></span> <span class="sr-only">评论数：</span> <span class="meta-value">0</span>
+                    </span></small></div></li><li class="list-group-item">
+                <a href="https://www.9kr.cc/index.php/archives/3/" class="pull-left thumb-sm m-r"><img src="https://www.9kr.cc/usr/themes/handsome/assets/img/sj2/10.jpg" class="img-40px normal-shadow img-square"></a>
+                <div class="clear">
+                    <h4 class="h5 l-h text-second"> <a href="https://www.9kr.cc/index.php/archives/3/" title="宝塔PHP8_1无法安装fileinfo解决"> 宝塔PHP8_1无法安装fileinfo解决 </a></h4>
+                    <small class="text-muted post-head-icon"><span class="meta-views "> <span class="right-small-icons"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-circle"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg></span> <span class="sr-only">评论数：</span> <span class="meta-value">0</span>
+                    </span></small></div></li><li class="list-group-item">
+                <a href="https://www.9kr.cc/index.php/archives/7/" class="pull-left thumb-sm m-r"><img src="https://www.9kr.cc/usr/themes/handsome/assets/img/sj2/2.jpg" class="img-40px normal-shadow img-square"></a>
+                <div class="clear">
+                    <h4 class="h5 l-h text-second"> <a href="https://www.9kr.cc/index.php/archives/7/" title="HASS修改数据库温度数据尝试记录"> HASS修改数据库温度数据尝试记录 </a></h4>
+                    <small class="text-muted post-head-icon"><span class="meta-views "> <span class="right-small-icons"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-circle"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg></span> <span class="sr-only">评论数：</span> <span class="meta-value">0</span>
+                    </span></small></div></li><li class="list-group-item">
+                <a href="https://www.9kr.cc/index.php/archives/6/" class="pull-left thumb-sm m-r"><img src="https://www.9kr.cc/usr/themes/handsome/assets/img/sj2/8.jpg" class="img-40px normal-shadow img-square"></a>
+                <div class="clear">
+                    <h4 class="h5 l-h text-second"> <a href="https://www.9kr.cc/index.php/archives/6/" title="Docker中HASS无法查看历史数据解决"> Docker中HASS无法查看历史数据解决 </a></h4>
+                    <small class="text-muted post-head-icon"><span class="meta-views "> <span class="right-small-icons"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-circle"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg></span> <span class="sr-only">评论数：</span> <span class="meta-value">0</span>
+                    </span></small></div></li>            </ul>
+        </div>
+       </div>
+      </section>
+               <!--博客信息-->
+               <section id="blog_info" class="widget widget_categories wrapper-md clear">
+       <h5 class="widget-title m-t-none text-md">博客信息</h5>
+       <ul class="list-group box-shadow-wrap-normal">
+                      <li class="list-group-item text-second"><span class="blog-info-icons"> <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-award"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg></span> <span class="badge
+           pull-right">5</span>文章数目</li>
+                      <li class="list-group-item text-second"> <span class="blog-info-icons"> <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-circle"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg></span>
+               <span class="badge
+           pull-right">0</span>评论数目</li>
+                      <li class="list-group-item text-second"><span class="blog-info-icons"> <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg></span>
+               <span class="badge
+           pull-right">52年115天</span>运行天数</li>
+           <li class="list-group-item text-second"><span class="blog-info-icons"> <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg></span> <span class="badge
+           pull-right">9 分钟前</span>最后活动</li>
+       </ul>
+      </section>
+                        <!--广告位置-->
+         <section id="a_d_sidebar" class="widget widget_categories wrapper-md clear">
+             <h5 class="widget-title m-t-none text-md">广告</h5>
+            <iframe frameborder="0" width="100%" height="600" src="https://live-h5.xcc.com/live/418?userId=143615&amp;liveNo=XCC220402134033"></iframe>         </section>
+                  <!--非文章页面-->
+            <section id="tag_cloud-2" class="widget widget_tag_cloud wrapper-md clear">
+       <h5 class="widget-title m-t-none text-md">标签云</h5>
+          <div class="tags l-h-2x">
+                                                                    <a href="https://www.9kr.cc/index.php/tag/%E5%AE%9D%E5%A1%94/" class="label badge" title="" data-toggle="tooltip" data-original-title="宝塔">宝塔</a>
+                                        <a href="https://www.9kr.cc/index.php/tag/%E9%9B%AA%E7%90%83/" class="label badge" title="" data-toggle="tooltip" data-original-title="雪球">雪球</a>
+                                        <a href="https://www.9kr.cc/index.php/tag/mosquitto/" class="label badge" title="" data-toggle="tooltip" data-original-title="mosquitto">mosquitto</a>
+                                        <a href="https://www.9kr.cc/index.php/tag/MQTT/" class="label badge" title="" data-toggle="tooltip" data-original-title="MQTT">MQTT</a>
+                                          </div>
+      </section>
+        </div>
+     </aside>
+      </div>
+</main>
+<!-- footer -->
+</div><!-- /content -->
+
+<!--right panel-->
+    <script type="text/template" id="tmpl-customizer">
+        <div class="settings panel panel-default setting_body_panel right_panel" aria-hidden="true">
+            <button class="rightSettingBtn fix-padding btn btn-default pos-abt border-radius-half-left"
+                    data-toggle="tooltip" data-placement="left" data-original-title="夜/日间模式"
+                    data-toggle-class=".settings=active, .settings-icon=animate-spin-span,.tocify-mobile-panel=false">
+                  <span class="settings-icon"><i width="13px" height="13px"
+                                                 data-feather="settings"></i></span>
+            </button>
+            <div class="panel-heading">
+                <button class="mode-set pull-right btn btn-xs btn-rounded btn-danger " name="reset" data-toggle="tooltip"
+                        data-placement="left" data-original-title="恢复默认值" >重置</button>
+                夜/日间模式
+            </div>
+            <div class="setting_body">
+                <div class="panel-body">
+                    <# for ( var keys = _.keys( data.sections.settings ), i = 0, name; keys.length > i; ++i ) { #>
+                    <div<# if ( i !== ( keys.length - 1 ) ) print( ' class="m-b-sm"' ); else print(' id="mode_set" class="mode_set"')
+                    #>>
+                    <label class="i-switch bg-info pull-right">
+                        <input type="checkbox" name="{{ keys[i] }}" <#
+                        print( ' value="'+handsome_UI.mode+data
+                        .defaults[keys[i]]+'"' )
+                        if ((data.defaults[keys[i]]=="auto" && handsome_UI.mode =="dark") || data
+                        .defaults[keys[i]] == true) print( ' checked="checked"' );
+                        #> />
+                        <i></i>
+                    </label>
+
+                    <span> <# if(data.defaults[keys[i]]=="auto") print(LocalConst.DARK_MODE_AUTO); else if(data
+                      .sections.settings[keys[i]] == LocalConst.DARK_MODE) {print(LocalConst.DARK_MODE_FIXED)
+                      }else print(data.sections.settings[keys[i]]);#></span>
+                    <# if ( i == ( keys.length - 1 ) ) {print( ' <small id="auto_info"'); if(data.defaults[keys[i]]!=="auto") print(' style="display:none"') ;print('><i class="glyphicon glyphicon-info-sign" data-toggle="tooltip" data-placement="bottom" data-original-title="网站深色模式自动依据您的设备关于深色模式的设置进行切换"></i></small>')}; #>
+                </div>
+                <# } #>
+            </div>
+            <div class="wrapper b-t b-light bg-light lter r-b">
+                <div class="row row-sm">
+                    <div class="col-xs-4">
+                        <#
+                        _.each( data.sections.colors, function( color, i ) {
+                        var newColumnBefore = ( i % 5 ) === 4;
+                        #>
+                        <label class="i-checks block<# if ( !newColumnBefore ) print( ' m-b-sm' ); #>">
+                            <input type="radio" name="color" value="{{ i }}"<# if ( data.defaults['color'] === i ) print( ' checked="checked"' ); #> />
+                            <span class="block bg-light clearfix pos-rlt">
+								<span class="active pos-abt w-full h-full bg-black-opacity text-center">
+									<i class="fontello fontello-check text-md text-white m-t-xs"></i>
+								</span>
+								<b class="{{ color.navbarHeader }} header"></b>
+								<b class="{{ color.navbarCollapse }} header"></b>
+								<b class="{{ color.aside.replace( ' b-r', '' ) }}"></b>
+							</span>
+                        </label>
+                        <#
+                        if ( newColumnBefore && ( i + 1 ) < data.sections.colors.length )
+                        print( '</div><div class="col-xs-4">' );
+                        } );
+                        #>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </script>
+<div class="topButton panel panel-default">
+    <button id="goToTop" class="fix-padding btn btn-default rightSettingBtn  pos-abt hide
+          border-radius-half-left" data-toggle="tooltip" data-placement="left" data-original-title="返回顶部">
+        <span class="settings-icon2"><svg xmlns="http://www.w3.org/2000/svg" width="13px" height="13px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-corner-right-up"><polyline points="10 9 15 4 20 9"></polyline><path d="M4 20h7a4 4 0 0 0 4-4V4"></path></svg></span>
+        <!--              <i class="fontello fontello-chevron-circle-up" aria-hidden="true"></i>-->
+    </button>
+</div>
+    <div class="tag_toc_body hide">
+        <div class="tocify-mobile-panel panel panel-default setting_body_panel right_panel" aria-hidden="true">
+            <button class="fix-padding rightSettingBtn border-radius-half-left btn btn-default pos-abt " data-toggle="tooltip" data-placement="left" data-original-title="目录" data-toggle-class=".tocify-mobile-panel=active,
+                    .settings=false">
+                <span class="settings-icon2"><svg xmlns="http://www.w3.org/2000/svg" width="13px" height="13px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-list"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg></span>
+            </button>
+            <div class="panel-heading">文章目录</div>
+            <div class="setting_body toc-mobile-body">
+                <div class="panel-body">
+                    <div id="tocTree" class="tocTree overflow-y-auto"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<footer id="footer" class="app-footer" role="footer">
+<!--    <div class="wrapper bg-light">-->
+<!--        <a class="pull-right hidden-xs text-ellipsis">-->
+<!--            <span class="label badge" style="margin-right: 10px;">Powered by typecho</span>-->
+<!--            <a href="https://www.ihewro.com/archives/489/" class="label badge">Theme by handsome</a>-->
+<!--        </a>-->
+<!--        <a href="" target="_blank" rel="noopener noreferrer" class="label badge" data-toggle="tooltip" data-original-title="">Copyright ©2021</a>-->
+<!--    </div>-->
+    <div class="wrapper bg-light">
+      <span class="pull-right hidden-xs text-ellipsis">
+            Powered by <a target="_blank" href="http://www.typecho.org">Typecho</a>&nbsp;|&nbsp;Theme by <a target="_blank" href="https://www.ihewro.com/archives/489/">handsome</a>
+      </span>
+        <span class="text-ellipsis">©&nbsp;2022 Copyright&nbsp;<a class="icp" href="https://beian.miit.gov.cn" target="_blank" rel="noopener noreferrer nofollow">粤ICP备20052787号</a></span>
+    </div>
+
+</footer>
+
+
+
+  </div><!--end of .app app-header-fixed-->
+
+
+
+
+        
+
+<!--定义全局变量-->
+
+
+<style>
+    .setting_body .panel-body .m-b-sm{
+        display: none;
+    }
+    .setting_body .panel-body ~ .wrapper{
+        display: none;
+    }
+</style>
+
+<!--主题核心js-->
+
+
+
+
+
+    <script src="https://www.9kr.cc/usr/themes/handsome/assets/js/function.min.js?v=8.4.02022031701"></script>
+
+    <script src="https://www.9kr.cc/usr/themes/handsome/assets/js/core.min.js?v=8.4.02022031701"></script>
+
+
+
+<script>
+    $(function () {
+        if ('serviceWorker' in navigator) {
+            if (LocalConst.USE_CACHE) {
+                navigator.serviceWorker.addEventListener('controllerchange', function (ev) {
+                    try {
+                        if (LocalConst.SERVICE_WORKER_INSTALLED){
+                            $.message({
+                                title:"检测到本地缓存需要更新",
+                                message:"<a href='#' onclick='window.location.reload();'>点击刷新页面</a>更新本地缓存",
+                                type:'warning',
+                                time: '300000'
+                            });
+                        }else{
+                            console.log("controllerchange:first sw install success");
+                        }
+                    }catch (e) {
+                        console.log("controllerchange error",e);
+                    }
+                });
+            }
+        }
+    })
+</script>
+
+<!--主题组件js加载-->
+    <script src="https://www.9kr.cc/usr/themes/handsome/assets/js/features/jquery.pjax.min.js" type="text/javascript"></script>
+
+    <!--平滑滚动组件-->
+    <script src="https://www.9kr.cc/usr/themes/handsome/assets/js/features/SmoothScroll.min.js"></script>
+
+
+<!--pjax动画组件-->
+
+
+
+
+
+
+<!--主题组件js加载结束-->
+
+<!--用户自定义js-->
+<script type="text/javascript">
+    </script>
+
+
+
+
+
+<!-- / footer -->
+
+
+
+<div class="settings panel panel-default setting_body_panel right_panel" aria-hidden="true">
+            <button class="rightSettingBtn fix-padding btn btn-default pos-abt border-radius-half-left" data-toggle="tooltip" data-placement="left" data-original-title="夜/日间模式" data-toggle-class=".settings=active, .settings-icon=animate-spin-span,.tocify-mobile-panel=false">
+                  <span class="settings-icon"><svg xmlns="http://www.w3.org/2000/svg" width="13px" height="13px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings" data-original-title="" title=""><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg></span>
+            </button>
+            <div class="panel-heading">
+                <button class="mode-set pull-right btn btn-xs btn-rounded btn-danger " name="reset" data-toggle="tooltip" data-placement="left" data-original-title="恢复默认值">重置</button>
+                夜/日间模式
+            </div>
+            <div class="setting_body">
+                <div class="panel-body">
+                    
+                    <div class="m-b-sm">
+                    <label class="i-switch bg-info pull-right">
+                        <input type="checkbox" name="header-fixed" value="light1" checked="checked">
+                        <i data-original-title="" title=""></i>
+                    </label>
+
+                    <span> 固定头部</span>
+                    
+                </div>
+                
+                    <div class="m-b-sm">
+                    <label class="i-switch bg-info pull-right">
+                        <input type="checkbox" name="aside-fix" value="light1" checked="checked">
+                        <i data-original-title="" title=""></i>
+                    </label>
+
+                    <span> 固定导航</span>
+                    
+                </div>
+                
+                    <div class="m-b-sm">
+                    <label class="i-switch bg-info pull-right">
+                        <input type="checkbox" name="aside-folded" value="light">
+                        <i data-original-title="" title=""></i>
+                    </label>
+
+                    <span> 折叠导航</span>
+                    
+                </div>
+                
+                    <div class="m-b-sm">
+                    <label class="i-switch bg-info pull-right">
+                        <input type="checkbox" name="aside-dock" value="light">
+                        <i data-original-title="" title=""></i>
+                    </label>
+
+                    <span> 置顶导航</span>
+                    
+                </div>
+                
+                    <div class="m-b-sm">
+                    <label class="i-switch bg-info pull-right">
+                        <input type="checkbox" name="layout-boxed" value="light1" checked="checked">
+                        <i data-original-title="" title=""></i>
+                    </label>
+
+                    <span> 盒子模型</span>
+                    
+                </div>
+                
+                    <div id="mode_set" class="mode_set">
+                    <label class="i-switch bg-info pull-right">
+                        <input type="checkbox" name="dark_mode" value="lightauto">
+                        <i data-original-title="" title=""></i>
+                    </label>
+
+                    <span> 深色模式（自动）</span>
+                     <small id="auto_info"><i class="glyphicon glyphicon-info-sign" data-toggle="tooltip" data-placement="bottom" data-original-title="网站深色模式自动依据您的设备关于深色模式的设置进行切换"></i></small>
+                </div>
+                
+            </div>
+            <div class="wrapper b-t b-light bg-light lter r-b">
+                <div class="row row-sm">
+                    <div class="col-xs-4">
+                        
+                        <label class="i-checks block m-b-sm">
+                            <input type="radio" name="color" value="0">
+                            <span class="block bg-light clearfix pos-rlt">
+								<span class="active pos-abt w-full h-full bg-black-opacity text-center">
+									<i class="fontello fontello-check text-md text-white m-t-xs" data-original-title="" title=""></i>
+								</span>
+								<b class="bg-black header"></b>
+								<b class="bg-white-only header"></b>
+								<b class="bg-black"></b>
+							</span>
+                        </label>
+                        
+                        <label class="i-checks block m-b-sm">
+                            <input type="radio" name="color" value="1">
+                            <span class="block bg-light clearfix pos-rlt">
+								<span class="active pos-abt w-full h-full bg-black-opacity text-center">
+									<i class="fontello fontello-check text-md text-white m-t-xs" data-original-title="" title=""></i>
+								</span>
+								<b class="bg-dark header"></b>
+								<b class="bg-white-only header"></b>
+								<b class="bg-dark"></b>
+							</span>
+                        </label>
+                        
+                        <label class="i-checks block m-b-sm">
+                            <input type="radio" name="color" value="2">
+                            <span class="block bg-light clearfix pos-rlt">
+								<span class="active pos-abt w-full h-full bg-black-opacity text-center">
+									<i class="fontello fontello-check text-md text-white m-t-xs" data-original-title="" title=""></i>
+								</span>
+								<b class="bg-white-only header"></b>
+								<b class="bg-white-only header"></b>
+								<b class="bg-black"></b>
+							</span>
+                        </label>
+                        
+                        <label class="i-checks block m-b-sm">
+                            <input type="radio" name="color" value="3">
+                            <span class="block bg-light clearfix pos-rlt">
+								<span class="active pos-abt w-full h-full bg-black-opacity text-center">
+									<i class="fontello fontello-check text-md text-white m-t-xs" data-original-title="" title=""></i>
+								</span>
+								<b class="bg-primary header"></b>
+								<b class="bg-white-only header"></b>
+								<b class="bg-dark"></b>
+							</span>
+                        </label>
+                        
+                        <label class="i-checks block">
+                            <input type="radio" name="color" value="4">
+                            <span class="block bg-light clearfix pos-rlt">
+								<span class="active pos-abt w-full h-full bg-black-opacity text-center">
+									<i class="fontello fontello-check text-md text-white m-t-xs" data-original-title="" title=""></i>
+								</span>
+								<b class="bg-info header"></b>
+								<b class="bg-white-only header"></b>
+								<b class="bg-black"></b>
+							</span>
+                        </label>
+                        </div><div class="col-xs-4">
+                        <label class="i-checks block m-b-sm">
+                            <input type="radio" name="color" value="5">
+                            <span class="block bg-light clearfix pos-rlt">
+								<span class="active pos-abt w-full h-full bg-black-opacity text-center">
+									<i class="fontello fontello-check text-md text-white m-t-xs" data-original-title="" title=""></i>
+								</span>
+								<b class="bg-success header"></b>
+								<b class="bg-white-only header"></b>
+								<b class="bg-dark"></b>
+							</span>
+                        </label>
+                        
+                        <label class="i-checks block m-b-sm">
+                            <input type="radio" name="color" value="6">
+                            <span class="block bg-light clearfix pos-rlt">
+								<span class="active pos-abt w-full h-full bg-black-opacity text-center">
+									<i class="fontello fontello-check text-md text-white m-t-xs" data-original-title="" title=""></i>
+								</span>
+								<b class="bg-danger header"></b>
+								<b class="bg-white-only header"></b>
+								<b class="bg-dark"></b>
+							</span>
+                        </label>
+                        
+                        <label class="i-checks block m-b-sm">
+                            <input type="radio" name="color" value="7">
+                            <span class="block bg-light clearfix pos-rlt">
+								<span class="active pos-abt w-full h-full bg-black-opacity text-center">
+									<i class="fontello fontello-check text-md text-white m-t-xs" data-original-title="" title=""></i>
+								</span>
+								<b class="bg-black header"></b>
+								<b class="bg-black header"></b>
+								<b class="bg-white"></b>
+							</span>
+                        </label>
+                        
+                        <label class="i-checks block m-b-sm">
+                            <input type="radio" name="color" value="8">
+                            <span class="block bg-light clearfix pos-rlt">
+								<span class="active pos-abt w-full h-full bg-black-opacity text-center">
+									<i class="fontello fontello-check text-md text-white m-t-xs" data-original-title="" title=""></i>
+								</span>
+								<b class="bg-dark header"></b>
+								<b class="bg-dark header"></b>
+								<b class="bg-light"></b>
+							</span>
+                        </label>
+                        
+                        <label class="i-checks block">
+                            <input type="radio" name="color" value="9">
+                            <span class="block bg-light clearfix pos-rlt">
+								<span class="active pos-abt w-full h-full bg-black-opacity text-center">
+									<i class="fontello fontello-check text-md text-white m-t-xs" data-original-title="" title=""></i>
+								</span>
+								<b class="bg-info dker header"></b>
+								<b class="bg-info dker header"></b>
+								<b class="bg-light dker"></b>
+							</span>
+                        </label>
+                        </div><div class="col-xs-4">
+                        <label class="i-checks block m-b-sm">
+                            <input type="radio" name="color" value="10">
+                            <span class="block bg-light clearfix pos-rlt">
+								<span class="active pos-abt w-full h-full bg-black-opacity text-center">
+									<i class="fontello fontello-check text-md text-white m-t-xs" data-original-title="" title=""></i>
+								</span>
+								<b class="bg-primary header"></b>
+								<b class="bg-primary header"></b>
+								<b class="bg-dark"></b>
+							</span>
+                        </label>
+                        
+                        <label class="i-checks block m-b-sm">
+                            <input type="radio" name="color" value="11">
+                            <span class="block bg-light clearfix pos-rlt">
+								<span class="active pos-abt w-full h-full bg-black-opacity text-center">
+									<i class="fontello fontello-check text-md text-white m-t-xs" data-original-title="" title=""></i>
+								</span>
+								<b class="bg-info dker header"></b>
+								<b class="bg-info dk header"></b>
+								<b class="bg-black"></b>
+							</span>
+                        </label>
+                        
+                        <label class="i-checks block m-b-sm">
+                            <input type="radio" name="color" value="12">
+                            <span class="block bg-light clearfix pos-rlt">
+								<span class="active pos-abt w-full h-full bg-black-opacity text-center">
+									<i class="fontello fontello-check text-md text-white m-t-xs" data-original-title="" title=""></i>
+								</span>
+								<b class="bg-success header"></b>
+								<b class="bg-success header"></b>
+								<b class="bg-dark"></b>
+							</span>
+                        </label>
+                        
+                        <label class="i-checks block m-b-sm">
+                            <input type="radio" name="color" value="13">
+                            <span class="block bg-light clearfix pos-rlt">
+								<span class="active pos-abt w-full h-full bg-black-opacity text-center">
+									<i class="fontello fontello-check text-md text-white m-t-xs" data-original-title="" title=""></i>
+								</span>
+								<b class="bg-danger header"></b>
+								<b class="bg-danger header"></b>
+								<b class="bg-dark"></b>
+							</span>
+                        </label>
+                        
+                        <label class="i-checks block">
+                            <input type="radio" name="color" value="14">
+                            <span class="block bg-light clearfix pos-rlt">
+								<span class="active pos-abt w-full h-full bg-black-opacity text-center">
+									<i class="fontello fontello-check text-md text-white m-t-xs" data-original-title="" title=""></i>
+								</span>
+								<b class="bg-white header"></b>
+								<b class="bg-white header"></b>
+								<b class="bg-white"></b>
+							</span>
+                        </label>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div></body></html>
